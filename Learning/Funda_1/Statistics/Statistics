@@ -1,0 +1,84 @@
+collection, organisationo, analysis, interpretation of data
+
+Descriptive stat                         |   Inferential stat
+Summarizing, analysind and               |   take a sample and analysing the entire data, population(parameter) VS sample(statistics)
+organising in the form of 
+numbers and graphs
+
+bar, hist, pie-chart,pdf, cdf                Point estimation VS Interval estimation {CENTRAL LIMIT THEOREM}
+kde 
+
+Measure of Central Tendency                  Outcomes of CLT are: the mean of the population is the mean of the sample stat,the sample follows                                               a Normal distribution and about the std(population)=std(sample)/size_of_sample
+
+Measure of Dispursion                         T-Test,Z-test,chi-square test,f-test
+
+                              
+                              
+                              ###refer Inno_Kanav###
+
+
+----------------------------------------------------------------------------------------------------
+Random Variable:
+discrete   ex: avg. salary of the citizens in a state (20k,50k,1M....)
+continous  ex: height of the citzens in the state (170.4,145.7,156.9,.......)
+
+in a Gaussian/Normal distribution , remember that 68%, 95%, 99.7%
+
+Log Normal Distribution:
+if a set of points follows a Log Normal Distribution , then it implies that the log of each point in the set when, depicted in a graph follows a Gaussian Distribution!!
+Sentiment analysis usually follows Log Normal Distribution
+
+
+
+Gaussian|Noraml to Standard Normal Distribution is when the mean is 0 and the std is 1 (scaling down=> Standard Scaling)
+
+
+any distribution => Standard Normal Distribution in order for better accuracy of the model!!
+
+    log -> Normal -> SND , this process is called as Log Normalisation
+    
+
+
+CHEBYSHEY'S ENEQUALITY:
+if a Random variable doea not falls under the Normal distribution , what is the next move
+so the percentages will not be like 68%,95%
+it will be like 1+(1/k^2)
+
+
+    
+Co-Variance :
+it quantifies the relation between the features
+It helps to find out the direction of the relation
+
+Negative: opposite 
+Positive: same order, increases with increasing (but does not describes in what way they are related)
+zero: No Relation
+
+drawback of co variance is that, it does not specifies the strength of the relation...
+
+PEARSON CO-RRELATION CO-EFFIECENT:
+range(-1,1)
+
+
+SPEARMAN'S RANK CORRELATION CO-EFFIECENT:
+here the relation between the rank of x and y variable is considered
+it describes the relation between two variables are described using a monotonic function
+used for non-linear distribution with x and y
+
+heatmap uses Spearman rank
+
+how it is calculated:
+goto wikipedia, examples
+
+
+
+
+
+
+
+
+
+
+
+
+
